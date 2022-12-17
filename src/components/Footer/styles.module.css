@@ -1,0 +1,25 @@
+.footerContainer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #303846;
+    left: 0;
+    bottom: 0;
+}
+
+.footer {
+    height: 200px;
+    padding: 2rem;
+}
+
+.footerHeader {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.footerItem {
+    margin-bottom: 0.5rem;
+    color: #ebedf0;
+}
