@@ -55,51 +55,52 @@ const config = {
           {to: '/contact', label: 'Contact', position: 'left'},
         ],
       },
-      // footer: {
-      //   style: 'dark',
-      //   links: [
-      //     {
-      //       title: 'Community',
-      //       items: [
-      //         {
-      //           html: `
-      //             <
-      //           `
-      //         },
-      //         {
-      //           label: 'Discord',
-      //           href: 'https://discordapp.com/invite/docusaurus',
-      //         },
-      //         {
-      //           label: 'Twitter',
-      //           href: 'https://twitter.com/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: 'More',
-      //       items: [
-      //         {
-      //           label: 'Blog',
-      //           to: '/blog',
-      //         },
-      //         {
-      //           label: 'GitHub',
-      //           href: 'https://github.com/facebook/docusaurus',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   copyright: `Copyright © ${new Date().getFullYear()} IJsclub Lageland Hamweg`,
-      // },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Partners',
+            items: [
+              {
+                label: 'Gewest Groningen',
+                href: 'https://www.knsbgroningen.nl/',
+              },
+              {
+                label: 'KNSB',
+                href: 'https://knsb.nl/',
+              },
+              {
+                label: 'Noorder Rondritten',
+                href: 'https://noorderrondritten.nl/',
+              },
+            ],
+          },
+          {
+            title: 'IJsclub Lageland-Hamweg',
+            items: [
+              {
+                html: '<span>Buitenbaan 15a</span>'
+              },
+              {
+                html: '<span>Lageland</span>'
+              },
+              {
+                label: 'ijsclub-lageland@hotmail.nl',
+                href: 'mailto:ijsclub-lageland@hotmail.nl',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} IJsclub Lageland Hamweg`,
+      },
     }),
 
-  scripts: [
-    {
-      src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initialize&v=weekly',
-      defer: true,
-    }
-  ]
+  // scripts: [
+  //   {
+  //     src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpSuJjnpTBakBzB0I8cjQEhSuJcW_0on4&callback=initialize&v=weekly',
+  //     defer: true,
+  //   }
+  // ]
 };
 
 module.exports = config;

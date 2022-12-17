@@ -5,8 +5,9 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
-import Footer from "../components/Footer";
 import IjsbaanOpen from "../components/IjsbaanOpen";
+
+const showBanner = new Date() < new Date("2022-12-19");
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
@@ -32,9 +33,8 @@ export default function Home() {
         <Layout
             title={siteConfig.title}
             description="IJsbaan Lageland Hamweg - IJsbaan voor Lageland, Harkstede, Scharmer en Meerstad">
-            <IjsbaanOpen/>
+            {showBanner && <IjsbaanOpen/>}
             <HomepageHeader/>
-            <Footer/>
         </Layout>
     );
 }
