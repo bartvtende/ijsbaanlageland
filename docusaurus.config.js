@@ -91,16 +91,9 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} IJsclub Lageland Hamweg`,
+        copyright: `Copyright © ${new Date().getFullYear()} IJsclub Lageland-Hamweg`,
       },
     }),
-
-  // scripts: [
-  //   {
-  //     src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpSuJjnpTBakBzB0I8cjQEhSuJcW_0on4&callback=initialize&v=weekly',
-  //     defer: true,
-  //   }
-  // ]
 };
 
 module.exports = config;
