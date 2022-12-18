@@ -79,7 +79,7 @@ const config = {
             title: 'IJsclub Lageland-Hamweg',
             items: [
               {
-                html: '<span>Buitenbaan 15a</span>'
+                html: '<span>Hamweg 81</span>'
               },
               {
                 html: '<span>Lageland</span>'
