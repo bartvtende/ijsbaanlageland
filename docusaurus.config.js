@@ -3,8 +3,8 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IJsbaan Lageland',
-  tagline: 'IJsbaan Lageland Hamweg',
+  title: 'IJsclub Lageland-Hamweg',
+  tagline: 'IJsclub Lageland-Hamweg',
   url: 'https://ijslaanlageland.nl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
