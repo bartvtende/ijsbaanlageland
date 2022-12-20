@@ -47,10 +47,11 @@ const config = {
       },
       navbar: {
         title: 'IJsbaan Lageland',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        // },
+        logo: {
+          alt: 'Logo',
+          src: 'img/logo.jpg',
+          style: 'margin-right: 1rem'
+        },
         items: [
           {to: '/contact', label: 'Contact', position: 'left'},
         ],
