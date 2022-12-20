@@ -50,7 +50,6 @@ const config = {
         logo: {
           alt: 'Logo',
           src: 'img/logo.jpg',
-          style: 'margin-right: 1rem'
         },
         items: [
           {to: '/contact', label: 'Contact', position: 'left'},
