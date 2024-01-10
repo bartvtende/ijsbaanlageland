@@ -53,6 +53,11 @@ const config = {
         },
         items: [
           {to: '/contact', label: 'Contact', position: 'left'},
+          {
+            label: 'Facebook',
+            href: 'https://www.facebook.com/profile.php?id=61555447713574',
+            position: 'right',
+          },
         ],
       },
       footer: {
