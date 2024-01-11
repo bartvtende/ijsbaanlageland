@@ -7,7 +7,7 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import IjsbaanOpen from "../components/IjsbaanOpen";
 
-const showBanner = new Date() < new Date("2022-12-19");
+const showBanner = new Date() < new Date("2024-01-12");
 
 function HomepageHeader() {
     const {siteConfig} = useDocusaurusContext();
@@ -31,7 +31,7 @@ export default function Home() {
         <Layout
             title="IJsbaan Lageland"
             description="IJsbaan Lageland-Hamweg - IJsbaan voor Lageland, Harkstede, Scharmer en Meerstad">
-            {/*{showBanner && <IjsbaanOpen/>}*/}
+            {showBanner && <IjsbaanOpen/>}
             <HomepageHeader/>
 
             <div className="container container--fluid margin-vert--lg">
