@@ -31,7 +31,7 @@ export default function Home() {
         <Layout
             title="IJsbaan Lageland"
             description="IJsbaan Lageland-Hamweg - IJsbaan voor Lageland, Harkstede, Scharmer en Meerstad">
-            {showBanner && <IjsbaanOpen/>}
+            {/*{showBanner && <IjsbaanOpen/>}*/}
             <HomepageHeader/>
 
             <div className="container container--fluid margin-vert--lg">

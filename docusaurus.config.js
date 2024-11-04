@@ -90,8 +90,8 @@ const config = {
                 html: '<span>Lageland</span>'
               },
               {
-                label: 'ijsclub-lageland@hotmail.nl',
-                href: 'mailto:ijsclub-lageland@hotmail.nl',
+                label: 'info@ijsbaanlageland.nl',
+                href: 'mailto:info@ijsbaanlageland.nl',
               },
             ],
           },
